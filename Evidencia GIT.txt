@@ -1,0 +1,220 @@
+
+Ariel@LAPTOP-4A2AC02F MINGW64 ~/Desktop/Biblioteca 06.06/Biblioteca (master)
+$ git init
+Initialized empty Git repository in C:/Users/Ariel/Desktop/Biblioteca 06.06/Biblioteca/.git/
+
+Ariel@LAPTOP-4A2AC02F MINGW64 ~/Desktop/Biblioteca 06.06/Biblioteca (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .vscode/
+        Biblioteca.csproj
+        Controllers/
+        Models/
+        Program.cs
+        Properties/
+        Startup.cs
+        Views/
+        appsettings.Development.json
+        appsettings.json
+        bin/
+        obj/
+        wwwroot/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Ariel@LAPTOP-4A2AC02F MINGW64 ~/Desktop/Biblioteca 06.06/Biblioteca (master)
+$ git add .
+warning: LF will be replaced by CRLF in Biblioteca.csproj.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Controllers/Autenticacao.cs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Controllers/BaseController.cs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Controllers/EmprestimoController.cs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Controllers/LivroController.cs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Models/BibliotecaContext.cs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Models/CadEmprestimoViewModel.cs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Models/Emprestimo.cs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Models/EmprestimoService.cs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Models/FiltrosEmprestimos.cs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Models/FiltrosLivros.cs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Models/Livro.cs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Models/LivroService.cs.
+The file will have its original line endings in your working directory
+
+Ariel@LAPTOP-4A2AC02F MINGW64 ~/Desktop/Biblioteca 06.06/Biblioteca (master)
+$ git commit -n "upload do projeto base"
+error: pathspec 'upload do projeto base' did not match any file(s) known to git
+
+Ariel@LAPTOP-4A2AC02F MINGW64 ~/Desktop/Biblioteca 06.06/Biblioteca (master)
+$ git commit -n "upload do projeto base"
+error: pathspec 'upload do projeto base' did not match any file(s) known to git
+
+Ariel@LAPTOP-4A2AC02F MINGW64 ~/Desktop/Biblioteca 06.06/Biblioteca (master)
+$ git commit -m "upload do projeto base"
+[master (root-commit) e07931c] upload do projeto base
+ 133 files changed, 47986 insertions(+)
+ create mode 100644 .vscode/launch.json
+ create mode 100644 Biblioteca.csproj
+ create mode 100644 Controllers/Autenticacao.cs
+ create mode 100644 Controllers/BaseController.cs
+ create mode 100644 Controllers/EmprestimoController.cs
+ create mode 100644 Controllers/HomeController.cs
+ create mode 100644 Controllers/LivroController.cs
+ create mode 100644 Models/BibliotecaContext.cs
+ create mode 100644 Models/CadEmprestimoViewModel.cs
+ create mode 100644 Models/Emprestimo.cs
+ create mode 100644 Models/EmprestimoService.cs
+ create mode 100644 Models/FiltrosEmprestimos.cs
+ create mode 100644 Models/FiltrosLivros.cs
+ create mode 100644 Models/Livro.cs
+ create mode 100644 Models/LivroService.cs
+ create mode 100644 Program.cs
+ create mode 100644 Properties/launchSettings.json
+ create mode 100644 Startup.cs
+ create mode 100644 Views/Emprestimo/Cadastro.cshtml
+ create mode 100644 Views/Emprestimo/Edicao.cshtml
+ create mode 100644 Views/Emprestimo/Listagem.cshtml
+ create mode 100644 Views/Home/Index.cshtml
+ create mode 100644 Views/Home/Login.cshtml
+ create mode 100644 Views/Home/Privacy.cshtml
+ create mode 100644 Views/Livro/Cadastro.cshtml
+ create mode 100644 Views/Livro/Edicao.cshtml
+ create mode 100644 Views/Livro/Listagem.cshtml
+ create mode 100644 Views/Livro/_FormCadastro.cshtml
+ create mode 100644 Views/Shared/_CookieConsentPartial.cshtml
+ create mode 100644 Views/Shared/_Layout.cshtml
+ create mode 100644 Views/Shared/_ValidationScriptsPartial.cshtml
+ create mode 100644 Views/_ViewImports.cshtml
+ create mode 100644 Views/_ViewStart.cshtml
+ create mode 100644 appsettings.Development.json
+ create mode 100644 appsettings.json
+ create mode 100644 bin/Debug/netcoreapp3.1/Biblioteca.Views.dll
+ create mode 100644 bin/Debug/netcoreapp3.1/Biblioteca.Views.pdb
+ create mode 100644 bin/Debug/netcoreapp3.1/Biblioteca.deps.json
+ create mode 100644 bin/Debug/netcoreapp3.1/Biblioteca.dll
+ create mode 100644 bin/Debug/netcoreapp3.1/Biblioteca.exe
+ create mode 100644 bin/Debug/netcoreapp3.1/Biblioteca.pdb
+ create mode 100644 bin/Debug/netcoreapp3.1/Biblioteca.runtimeconfig.dev.json
+ create mode 100644 bin/Debug/netcoreapp3.1/Biblioteca.runtimeconfig.json
+ create mode 100644 bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+ create mode 100644 bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+ create mode 100644 bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+ create mode 100644 bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+ create mode 100644 bin/Debug/netcoreapp3.1/MySqlConnector.dll
+ create mode 100644 bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+ create mode 100644 bin/Debug/netcoreapp3.1/Pomelo.EntityFrameworkCore.MySql.dll
+ create mode 100644 bin/Debug/netcoreapp3.1/Pomelo.JsonObject.dll
+ create mode 100644 bin/Debug/netcoreapp3.1/appsettings.Development.json
+ create mode 100644 bin/Debug/netcoreapp3.1/appsettings.json
+ create mode 100644 obj/Biblioteca.csproj.nuget.dgspec.json
+ create mode 100644 obj/Biblioteca.csproj.nuget.g.props
+ create mode 100644 obj/Biblioteca.csproj.nuget.g.targets
+ create mode 100644 obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+ create mode 100644 obj/Debug/netcoreapp3.1/Biblioteca.AssemblyInfo.cs
+ create mode 100644 obj/Debug/netcoreapp3.1/Biblioteca.AssemblyInfoInputs.cache
+ create mode 100644 obj/Debug/netcoreapp3.1/Biblioteca.MvcApplicationPartsAssemblyInfo.cache
+ create mode 100644 obj/Debug/netcoreapp3.1/Biblioteca.RazorAssemblyInfo.cache
+ create mode 100644 obj/Debug/netcoreapp3.1/Biblioteca.RazorAssemblyInfo.cs
+ create mode 100644 obj/Debug/netcoreapp3.1/Biblioteca.RazorCoreGenerate.cache
+ create mode 100644 obj/Debug/netcoreapp3.1/Biblioteca.RazorTargetAssemblyInfo.cache
+ create mode 100644 obj/Debug/netcoreapp3.1/Biblioteca.RazorTargetAssemblyInfo.cs
+ create mode 100644 obj/Debug/netcoreapp3.1/Biblioteca.TagHelpers.input.cache
+ create mode 100644 obj/Debug/netcoreapp3.1/Biblioteca.TagHelpers.output.cache
+ create mode 100644 obj/Debug/netcoreapp3.1/Biblioteca.Views.dll
+ create mode 100644 obj/Debug/netcoreapp3.1/Biblioteca.Views.pdb
+ create mode 100644 obj/Debug/netcoreapp3.1/Biblioteca.assets.cache
+ create mode 100644 obj/Debug/netcoreapp3.1/Biblioteca.csproj.CopyComplete
+ create mode 100644 obj/Debug/netcoreapp3.1/Biblioteca.csproj.CoreCompileInputs.cache
+ create mode 100644 obj/Debug/netcoreapp3.1/Biblioteca.csproj.FileListAbsolute.txt
+ create mode 100644 obj/Debug/netcoreapp3.1/Biblioteca.csprojAssemblyReference.cache
+ create mode 100644 obj/Debug/netcoreapp3.1/Biblioteca.dll
+ create mode 100644 obj/Debug/netcoreapp3.1/Biblioteca.genruntimeconfig.cache
+ create mode 100644 obj/Debug/netcoreapp3.1/Biblioteca.pdb
+ create mode 100644 obj/Debug/netcoreapp3.1/Razor/Views/Emprestimo/Cadastro.cshtml.g.cs
+ create mode 100644 obj/Debug/netcoreapp3.1/Razor/Views/Emprestimo/Edicao.cshtml.g.cs
+ create mode 100644 obj/Debug/netcoreapp3.1/Razor/Views/Emprestimo/Listagem.cshtml.g.cs
+ create mode 100644 obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+ create mode 100644 obj/Debug/netcoreapp3.1/Razor/Views/Home/Login.cshtml.g.cs
+ create mode 100644 obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
+ create mode 100644 obj/Debug/netcoreapp3.1/Razor/Views/Livro/Cadastro.cshtml.g.cs
+ create mode 100644 obj/Debug/netcoreapp3.1/Razor/Views/Livro/Edicao.cshtml.g.cs
+ create mode 100644 obj/Debug/netcoreapp3.1/Razor/Views/Livro/Listagem.cshtml.g.cs
+ create mode 100644 obj/Debug/netcoreapp3.1/Razor/Views/Livro/_FormCadastro.cshtml.g.cs
+ create mode 100644 obj/Debug/netcoreapp3.1/Razor/Views/Shared/_CookieConsentPartial.cshtml.g.cs
+ create mode 100644 obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+ create mode 100644 obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+ create mode 100644 obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
+ create mode 100644 obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+ create mode 100644 obj/Debug/netcoreapp3.1/apphost.exe
+ create mode 100644 obj/Debug/netcoreapp3.1/staticwebassets/Biblioteca.StaticWebAssets.Manifest.cache
+ create mode 100644 obj/Debug/netcoreapp3.1/staticwebassets/Biblioteca.StaticWebAssets.xml
+ create mode 100644 obj/project.assets.json
+ create mode 100644 obj/project.nuget.cache
+ create mode 100644 wwwroot/css/site.css
+ create mode 100644 wwwroot/favicon.ico
+ create mode 100644 wwwroot/js/site.js
+ create mode 100644 wwwroot/lib/bootstrap/LICENSE
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap.css
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap.css.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap.min.css
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js
+ create mode 100644 wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+ create mode 100644 wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/js/bootstrap.js
+ create mode 100644 wwwroot/lib/bootstrap/dist/js/bootstrap.js.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/js/bootstrap.min.js
+ create mode 100644 wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map
+ create mode 100644 wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt
+ create mode 100644 wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js
+ create mode 100644 wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js
+ create mode 100644 wwwroot/lib/jquery-validation/LICENSE.md
+ create mode 100644 wwwroot/lib/jquery-validation/dist/additional-methods.js
+ create mode 100644 wwwroot/lib/jquery-validation/dist/additional-methods.min.js
+ create mode 100644 wwwroot/lib/jquery-validation/dist/jquery.validate.js
+ create mode 100644 wwwroot/lib/jquery-validation/dist/jquery.validate.min.js
+ create mode 100644 wwwroot/lib/jquery/LICENSE.txt
+ create mode 100644 wwwroot/lib/jquery/dist/jquery.js
+ create mode 100644 wwwroot/lib/jquery/dist/jquery.min.js
+ create mode 100644 wwwroot/lib/jquery/dist/jquery.min.map
+
+Ariel@LAPTOP-4A2AC02F MINGW64 ~/Desktop/Biblioteca 06.06/Biblioteca (master)
+$ git remote add origin https://github.com/nataraja1997/biblioteca
+
+Ariel@LAPTOP-4A2AC02F MINGW64 ~/Desktop/Biblioteca 06.06/Biblioteca (master)
+$ git push -u origin master
+Enumerating objects: 160, done.
+Counting objects: 100% (160/160), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (143/143), done.
+Writing objects: 100% (160/160), 2.22 MiB | 973.00 KiB/s, done.
+Total 160 (delta 34), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (34/34), done.
+To https://github.com/nataraja1997/biblioteca
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+

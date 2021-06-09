@@ -1,0 +1,9 @@
+﻿Núm,Projeto,Relator,Atribuído a,Prioridade,Gravidade,Freqüência,Versão do Produto,Categoria,Data de Envio,SO,Versão SO,Plataforma,Visibilidade,Atualizado,Resumo,Estado,Resolução,Corrigido na Versão
+0000009,biblioteca,administrator,,normal,grande,sempre,,General,2021-06-07,,,,público,2021-06-07,Restrição de acesso,novo,aberto,
+0000008,biblioteca,administrator,,alta,grande,sempre,,General,2021-06-07,,,,público,2021-06-07,Pagina de cadastro,novo,aberto,
+0000007,biblioteca,administrator,,urgente,grande,sempre,,General,2021-06-07,,,,público,2021-06-07,"Acesso ao link ""listagem"" remete a erro no sistema",novo,aberto,
+0000006,biblioteca,administrator,,urgente,grande,sempre,,General,2021-06-07,,,,público,2021-06-07,Edição de livros não altera ano dos livros.,novo,aberto,
+0000005,biblioteca,administrator,,baixa,pequeno,sempre,,General,2021-06-07,,,,público,2021-06-07,Nenhum registro encontrado,novo,aberto,
+0000004,biblioteca,administrator,,normal,grande,não se tentou,,General,2021-06-07,,,,público,2021-06-07,Cadastro de tabela banco de dados,novo,aberto,
+0000003,biblioteca,administrator,,normal,pequeno,sempre,,General,2021-06-07,,,,público,2021-06-07,Campos obrigatórios,novo,aberto,
+0000002,biblioteca,administrator,,baixa,mínimo,não se tentou,,General,2021-06-07,,,,público,2021-06-07,"Cadastro de Livros não possui ""Autor""",novo,aberto,
